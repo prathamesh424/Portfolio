@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect"
 import {Tilt} from "react-tilt" 
 import {motion} from "framer-motion"
 import {headContainerAnimation, headContentAnimation, headTextAnimation} from "../../utils/motion"
-import profile from '../../image/kurat.jpg'
+import profile from '../../image/profile.jpg'
 
 const MainContainer= styled.div`
   display: flex  ;
@@ -219,6 +219,7 @@ const About = () => {
                             "Full Stack Developer",
                             "Java Developer",
                             "Programmer",
+                            "Leetcoder"
                           ] ,
                           autoStart : true ,
                           loop: true ,
@@ -229,10 +230,10 @@ const About = () => {
 
                   <motion.div {...headContentAnimation} >
                    <SubTitle>
-                   Skilled in Technical Staff with comprehensive experience in web development, and technical project management. Strengths include strong analytical skills, deep understanding of modern technologies like React.js, Node.js, Express.js, MongoDB, and ability to solve complex problems efficiently. collaboration with cross-functional teams to deliver high-quality technical solutions that improved operational efficiency.
+                   Skilled in Technical Staff with comprehensive experience in DSA using Java , web development, and technical project management. Strengths include strong analytical skills, deep understanding of modern technologies like React.js, Node.js, Express.js, MongoDB, and ability to solve complex problems efficiently. collaboration with cross-functional teams to deliver high-quality technical solutions that improved operational efficiency.
                     </SubTitle>
                     </motion.div> 
-                <Resume>Check Resume</Resume>
+                <Resume href="https://drive.google.com/file/d/1KeeyrsHZ6RMpjasJnc3eyBRqNd1_t3yM/view?usp=sharing" target="_blank">Check Resume</Resume>
                   
               </TextContainer>
 

@@ -57,7 +57,8 @@ const Education = () => {
         <Wrapper>
             <Title>Education</Title>
             <Desc style= {{marginBottom: "40px"}}>
-                My work experience as a software engineer and work with many people but have internship till now
+                My education has been a journey of self-discovery and growth. My
+                educational details are as follows.
             </Desc>
 
             <VerticalTimeline>

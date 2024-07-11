@@ -1,4 +1,13 @@
 import form from "../image/form.jpeg"
+import BlogWeb from "../image/blogweb.jpeg"
+import calculator from "../image/calculator.jpeg"
+import chat from "../image/chat.png"
+import fileshare from "../image/fileshare.png"
+import moneyTracker from "../image/moneyTracker.jpeg"
+import  notemint from "../image/notemint.jpeg"
+import  rock  from"../image/rock.jpeg"
+import temp from "../image/temp.jpeg"
+import snake  from '../image/snakegame.png'
 
 export const Bio = {
   name: "Prathamesh Gursal",
@@ -6,6 +15,7 @@ export const Bio = {
     "Full Stack Developer",
     "Java Developer",
     "Programmer",
+    "Leetcoder"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -103,32 +113,32 @@ export const skills = [
     ],
   },
 
-  {
-    title: "DevOps",
-    skills: [
-      {
-        name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-      },
-      {
-        name: "Google Cloud",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-      },
-      {
-        name: "Jenkins",
-        image:
-          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-      },
-      {
-        name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      },
+  // {
+  //   title: "DevOps",
+  //   skills: [
+  //     {
+  //       name: "AWS",
+  //       image:
+  //         "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+  //     },
+  //     {
+  //       name: "Google Cloud",
+  //       image:
+  //         "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+  //     },
+  //     {
+  //       name: "Jenkins",
+  //       image:
+  //         "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+  //     },
+  //     {
+  //       name: "Kubernetes",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+  //     },
 
-    ],
-  },
+  //   ],
+  // },
   {
     title: "Programming Language",
     skills: [
@@ -265,7 +275,7 @@ export const projects = [
     date: "",
     description:
       "A dynamic blog web application built using the MERN stack, featuring user authentication, CRUD operations for posts, and a commenting system. It offers a responsive design with a rich text editor for creating and editing posts, ensuring a seamless user experience across devices.",
-    image: {form},
+    image: BlogWeb,
     tags: [
       "React Js",
       "Node Js",
@@ -282,7 +292,7 @@ export const projects = [
     date: "",
     description:
       "A real-time chat web application built with the MERN stack, featuring user authentication, private messaging, and group chats. It ensures secure communication with live updates, providing a seamless and interactive messaging experience across devices.",
-    image:"",
+    image:chat,
     tags: [
       "React Js",
       "Node Js",
@@ -290,7 +300,7 @@ export const projects = [
       "Mongo DB",
     ],
     category: "web app",
-    github: "",
+    github: "https://github.com/prathamesh424/Chat-webApp",
   },
 
   {
@@ -299,7 +309,7 @@ export const projects = [
     date: "",
     description:
       "A comprehensive money tracker web application built with the MERN stack, enabling users to manage their expenses and income efficiently. It includes features for categorizing transactions, generating reports, and visualizing financial data through graphs.",
-    image: "",
+    image: moneyTracker,
     tags: [
       "React Js",
       "Node Js",
@@ -317,7 +327,7 @@ export const projects = [
     date: " ",
     description:
           "A user-friendly registration form application built with the MERN stack, offering seamless user registration and validation. It includes features for securely storing user data, form input validation, and real-time error handling for an efficient signup process.",
-    image: "" ,
+    image: form ,
     tags: [
       "React Js",
       "Node Js",
@@ -334,7 +344,7 @@ export const projects = [
     title : "Notemint",
     date: "",
     description: "Notemint is an e-commerce web application built with the MERN stack, designed for students to buy and sell books. It features a user-friendly interface for listing books, secure payment processing, and efficient order management." ,
-    image: "" ,
+    image: notemint,
     tags: [
       "React Js",
       "Node Js",
@@ -355,7 +365,7 @@ export const projects = [
     title: "File Share",
     date: "",
     description: "A file-sharing web application built with React, Node, and Express, allowing users to upload files and generate download links. It provides a secure and efficient way to share files with others, ensuring quick access and easy management of shared data.",
-    image: "",
+    image: fileshare,
     tags: ["React Js", "Node js" , "Node JS"],
     category: "web app",
     github: "https://github.com/prathamesh424/File-Sharing",
@@ -366,7 +376,7 @@ export const projects = [
     title: "Snake Game",
     date: "",
     description: "A classic Snake game developed using Java, featuring smooth controls and progressively challenging gameplay. It includes a user-friendly interface and high-score tracking to enhance the gaming experience." ,
-    image: "" ,
+    image: snake,
     tags: ["java"],
     category: "java",
     github: "https://github.com/prathamesh424/Techno_Hacks_Tasks",
@@ -377,7 +387,7 @@ export const projects = [
     title: "Rock-Paper-Scissors ",
     date: "",
     description:"A Rock-Paper-Scissors game created using JavaScript, HTML, and CSS, featuring interactive gameplay and responsive design. It offers real-time score tracking and visually appealing animations for an engaging user experience.",
-    image:"" ,
+    image: rock ,
     tags: ["Javascript" , "Html" , "css"],
     category: "website",
     github: "https://github.com/prathamesh424/Js_miniproject/tree/main/rockpaperGame",
@@ -388,7 +398,7 @@ export const projects = [
     title: "Calculator",
     date: "",
     description: "A simple and intuitive calculator built with JavaScript, HTML, and CSS, providing basic arithmetic operations. It features a clean interface and responsive design for seamless usability across devices.",
-    image: "" ,
+    image: calculator ,
     tags:  ["Javascript" , "Html" , "css"],
     category: "website",
     github: "https://github.com/prathamesh424/Js_miniproject/tree/main/Calculator",
@@ -398,7 +408,7 @@ export const projects = [
     title: "Temperature Convertor",
     date: "",
     description: "A temperature converter web application built with JavaScript, HTML, and CSS, allowing users to convert between Celsius, Fahrenheit, and Kelvin. It features a user-friendly interface with real-time conversion updates, making it easy to use for quick temperature conversions.",
-    image: "" ,
+    image: temp ,
     tags:  ["Javascript" , "Html" , "css"],
     category: "website",
     github: "https://github.com/prathamesh424/Js_miniproject/tree/main/TempConverter",

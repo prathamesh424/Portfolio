@@ -100,7 +100,9 @@ const Projects = () => {
         <Wrapper>
             <Title>Projects</Title>
             <Desc style= {{marginBottom: "40px"}}>
-                My work experience as a software engineer and work with many people but have internship till now
+            Engineered responsive and dynamic web applications utilizing React, Node.js, and Firebase,
+             with a strong emphasis on user experience and scalability. Demonstrated expertise in full-stack development 
+             using the MERN stack to deliver robust and efficient solutions.
             </Desc>
             
             <ToggleButtonGroup>

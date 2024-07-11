@@ -116,7 +116,8 @@ const Skills = () => {
         <Wrapper>
             <Title>Skills</Title>
             <Desc style={{marginBottom: "40px"}}>
-                Here are some of my skills that I Learn In Engineering journey
+                    As an engineering student, I possess a diverse set of technical skills and practical knowledge essential for 
+                    problem-solving and innovation in various fields. Proficient in areas such as: 
             </Desc>
             <SkillsContainer>
                 {skills.map((skill , index) =>

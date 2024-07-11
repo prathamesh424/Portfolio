@@ -56,9 +56,10 @@ const Experience = () => {
         <Wrapper>
             <Title>Experience</Title>
             <Desc style= {{marginBottom: "40px"}}>
-                My work experience as a software engineer and work with many people but have internship till now
-            </Desc>
-
+            My work experience as a software engineer includes developing responsive web applications using
+             React and Node.js, and creating full-featured platforms with React, Redux, and Firebase.
+              Proficient in the MERN stack for building scalable web applications.      
+              </Desc>
             <VerticalTimeline>
                 {experiences.map((experience , index ) => (
                     <ExperienceCard experience = {experience}/>
